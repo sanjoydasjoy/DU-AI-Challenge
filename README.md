@@ -1,6 +1,6 @@
-# 🏆 DU AI Challenge - Top 5 Solution (0.66 mAP)
+# 🏆 DU AI Challenge - Team TopG Solution (0.66 mAP)
 
-## 📋 Table of Contents
+## Table of Contents
 - [Challenge Overview](#challenge-overview)
 - [Problem Analysis](#problem-analysis)
 - [Our Approach](#our-approach)
@@ -136,13 +136,16 @@ model=yolov8m.pt  # Medium model
 ```
 
 **Comparison of YOLOv8 Variants:**
-| Model | Parameters | Speed | Accuracy | Our Choice |
-|-------|------------|--------|----------|------------|
-| YOLOv8n | 3.2M | ⭐⭐⭐⭐⭐ | ⭐⭐ | ❌ Too small |
-| YOLOv8s | 11.2M | ⭐⭐⭐⭐ | ⭐⭐⭐ | ❌ Still small |
-| **YOLOv8m** | **25.9M** | **⭐⭐⭐** | **⭐⭐⭐⭐** | **✅ Perfect balance** |
-| YOLOv8l | 43.7M | ⭐⭐ | ⭐⭐⭐⭐⭐ | ❌ Might overfit |
-| YOLOv8x | 68.2M | ⭐ | ⭐⭐⭐⭐⭐ | ❌ Too heavy |
+
+
+| Model       | Parameters | Speed      | Accuracy  | Our Choice                |
+| ----------- | ---------- | ---------- | --------- | ------------------------- |
+| YOLOv8n     | 3.2M       | Very Fast  | Low       | No – Too small            |
+| YOLOv8s     | 11.2M      | Fast       | Moderate  | No – Still small          |
+| **YOLOv8m** | **25.9M**  | **Medium** | **High**  | **Yes – Perfect balance** |
+| YOLOv8l     | 43.7M      | Slow       | Very High | No – Might overfit        |
+| YOLOv8x     | 68.2M      | Very Slow  | Very High | No – Too heavy            |
+
 
 **YOLOv8m Benefits:**
 - **25.9M parameters**: Sufficient capacity for 11 classes
@@ -767,10 +770,11 @@ ___
 
 ## References
 
-- [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics)
-- [DU AI Challenge Official Rules](https://drive.google.com/drive/folders/1T_qrxI1oKlFTQtwNleqU2vJrBZpt9wnY?usp=drive_link)
-- [Mean Average Precision Explained](https://example.com)
-- [Object Detection Best Practices](https://example.com)
+- [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics)  
+- [DU AI Challenge Official Rules](https://drive.google.com/drive/folders/1T_qrxI1oKlFTQtwNleqU2vJrBZpt9wnY?usp=drive_link)  
+- [Mean Average Precision Explained](https://blog.roboflow.com/mean-average-precision/)  
+- [Object Detection Best Practices](https://dbgallery.com/best-practises-ai-vision)  
+
 
 <br>
 
@@ -778,7 +782,7 @@ ___
 
 <br>
 
-## Team Members
+## Team TopG Members
 1. Sanjoy Das
 2. Tajul Islam Tarek
 3. Nayem Ahmed
