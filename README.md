@@ -8,7 +8,6 @@
 - [Code Walkthrough](#code-walkthrough)
 - [Results & Performance](#results--performance)
 - [Key Insights](#key-insights)
-- [Lessons Learned](#lessons-learned)
 
 <br>
 
