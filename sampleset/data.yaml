@@ -1,0 +1,13 @@
+train: ./train/images
+val: ./valid/images
+test: ./test/images
+
+nc: 11
+names: ['bicycle', 'bus', 'car', 'cng', 'leguna', 'manual-van', 'motor', 'others', 'pedestrian', 'rickshaw', 'truck']
+
+roboflow:
+  workspace: raiyaan-abdullah-public
+  project: traffic-drone-data-bangladesh-old-version
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/raiyaan-abdullah-public/traffic-drone-data-bangladesh-old-version/dataset/1

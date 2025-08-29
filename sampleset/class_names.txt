@@ -1,0 +1,11 @@
+0: bicycle
+1: bus
+2: car
+3: cng
+4: leguna
+5: manual-van
+6: motor
+7: others
+8: pedestrian
+9: rickshaw
+10: truck
