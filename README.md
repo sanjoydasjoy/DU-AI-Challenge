@@ -17,7 +17,7 @@ ___
 
 ## Challenge Overview
 
-### What is the DU AI Challenge?
+
 The **DU AI Challenge: DU Arena Season 1** was an intensive **8-hour computer vision competition** where teams developed AI models to detect and classify traffic objects in drone-captured aerial images from Bangladesh.
 
 
@@ -64,8 +64,6 @@ ___
 
 ## Problem Analysis
 
-### Why This Challenge Was Difficult
-
 #### 1. **Small Dataset Challenge**
 - Only **174 training images** for 11 classes
 - Risk of overfitting
@@ -103,7 +101,7 @@ ___
 ## Our Approach
 
 ### Overall Strategy
-Our winning strategy focused on **maximizing recall while maintaining precision** through:
+Our strategy was mainly focused on **maximizing recall while maintaining precision** through:
 
 1. **Smart Model Selection**: YOLOv8m for optimal accuracy-speed balance
 2. **High-Resolution Training**: Preserving small object details
@@ -111,9 +109,8 @@ Our winning strategy focused on **maximizing recall while maintaining precision*
 4. **Recall-Optimized Inference**: Low confidence threshold for maximum detections
 5. **Proper Validation**: Preventing overfitting on small dataset
 
-### Why This Approach Worked
 
-#### **Philosophy**: "Catch Everything, Let Evaluation Sort It Out"
+
 - **mAP metric rewards recall**: Better to detect all objects with some false positives
 - **Low confidence threshold**: Capture borderline detections
 - **High max detections**: Handle dense traffic scenes
